@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5BE0F71732ABA700628F0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BE0F61732ABA700628F0D /* UIKit.framework */; };
+		4F5BE0F91732ABA700628F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BE0F81732ABA700628F0D /* Foundation.framework */; };
+		4F5BE0FB1732ABA700628F0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5BE0FA1732ABA700628F0D /* CoreGraphics.framework */; };
+		4F5BE1011732ABA700628F0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE0FF1732ABA700628F0D /* InfoPlist.strings */; };
+		4F5BE1031732ABA700628F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BE1021732ABA700628F0D /* main.m */; };
+		4F5BE1071732ABA700628F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BE1061732ABA700628F0D /* AppDelegate.m */; };
+		4F5BE1091732ABA700628F0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE1081732ABA700628F0D /* Default.png */; };
+		4F5BE10B1732ABA700628F0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE10A1732ABA700628F0D /* Default@2x.png */; };
+		4F5BE10D1732ABA700628F0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE10C1732ABA700628F0D /* Default-568h@2x.png */; };
+		4F5BE1101732ABA700628F0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BE10F1732ABA700628F0D /* ViewController.m */; };
+		4F5BE1131732ABA700628F0D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE1111732ABA700628F0D /* ViewController.xib */; };
+		4F5BE11F1732AF5900628F0D /* FixedBugWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BE11A1732AF5900628F0D /* FixedBugWebViewController.m */; };
+		4F5BE1201732AF5900628F0D /* FixedBugWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE11B1732AF5900628F0D /* FixedBugWebViewController.xib */; };
+		4F5BE1211732AF5900628F0D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BE11D1732AF5900628F0D /* WebViewController.m */; };
+		4F5BE1221732AF5900628F0D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BE11E1732AF5900628F0D /* WebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5BE0F31732ABA700628F0D /* UIWindowKeyboardBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWindowKeyboardBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5BE0F61732ABA700628F0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F5BE0F81732ABA700628F0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F5BE0FA1732ABA700628F0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F5BE0FE1732ABA700628F0D /* UIWindowKeyboardBugDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWindowKeyboardBugDemo-Info.plist"; sourceTree = "<group>"; };
+		4F5BE1001732ABA700628F0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F5BE1021732ABA700628F0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5BE1041732ABA700628F0D /* UIWindowKeyboardBugDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindowKeyboardBugDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4F5BE1051732ABA700628F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F5BE1061732ABA700628F0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F5BE1081732ABA700628F0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4F5BE10A1732ABA700628F0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4F5BE10C1732ABA700628F0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F5BE10E1732ABA700628F0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5BE10F1732ABA700628F0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F5BE1121732ABA700628F0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4F5BE1191732AF5900628F0D /* FixedBugWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedBugWebViewController.h; sourceTree = "<group>"; };
+		4F5BE11A1732AF5900628F0D /* FixedBugWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedBugWebViewController.m; sourceTree = "<group>"; };
+		4F5BE11B1732AF5900628F0D /* FixedBugWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FixedBugWebViewController.xib; sourceTree = "<group>"; };
+		4F5BE11C1732AF5900628F0D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4F5BE11D1732AF5900628F0D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		4F5BE11E1732AF5900628F0D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5BE0F01732ABA700628F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5BE0F71732ABA700628F0D /* UIKit.framework in Frameworks */,
+				4F5BE0F91732ABA700628F0D /* Foundation.framework in Frameworks */,
+				4F5BE0FB1732ABA700628F0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5BE0EA1732ABA700628F0D = {
+			isa = PBXGroup;
+			children = (
+				4F5BE0FC1732ABA700628F0D /* UIWindowKeyboardBugDemo */,
+				4F5BE0F51732ABA700628F0D /* Frameworks */,
+				4F5BE0F41732ABA700628F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5BE0F41732ABA700628F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5BE0F31732ABA700628F0D /* UIWindowKeyboardBugDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5BE0F51732ABA700628F0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5BE0F61732ABA700628F0D /* UIKit.framework */,
+				4F5BE0F81732ABA700628F0D /* Foundation.framework */,
+				4F5BE0FA1732ABA700628F0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5BE0FC1732ABA700628F0D /* UIWindowKeyboardBugDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F5BE1191732AF5900628F0D /* FixedBugWebViewController.h */,
+				4F5BE11A1732AF5900628F0D /* FixedBugWebViewController.m */,
+				4F5BE11B1732AF5900628F0D /* FixedBugWebViewController.xib */,
+				4F5BE11C1732AF5900628F0D /* WebViewController.h */,
+				4F5BE11D1732AF5900628F0D /* WebViewController.m */,
+				4F5BE11E1732AF5900628F0D /* WebViewController.xib */,
+				4F5BE1051732ABA700628F0D /* AppDelegate.h */,
+				4F5BE1061732ABA700628F0D /* AppDelegate.m */,
+				4F5BE10E1732ABA700628F0D /* ViewController.h */,
+				4F5BE10F1732ABA700628F0D /* ViewController.m */,
+				4F5BE1111732ABA700628F0D /* ViewController.xib */,
+				4F5BE0FD1732ABA700628F0D /* Supporting Files */,
+			);
+			path = UIWindowKeyboardBugDemo;
+			sourceTree = "<group>";
+		};
+		4F5BE0FD1732ABA700628F0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5BE0FE1732ABA700628F0D /* UIWindowKeyboardBugDemo-Info.plist */,
+				4F5BE0FF1732ABA700628F0D /* InfoPlist.strings */,
+				4F5BE1021732ABA700628F0D /* main.m */,
+				4F5BE1041732ABA700628F0D /* UIWindowKeyboardBugDemo-Prefix.pch */,
+				4F5BE1081732ABA700628F0D /* Default.png */,
+				4F5BE10A1732ABA700628F0D /* Default@2x.png */,
+				4F5BE10C1732ABA700628F0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5BE0F21732ABA700628F0D /* UIWindowKeyboardBugDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5BE1161732ABA700628F0D /* Build configuration list for PBXNativeTarget "UIWindowKeyboardBugDemo" */;
+			buildPhases = (
+				4F5BE0EF1732ABA700628F0D /* Sources */,
+				4F5BE0F01732ABA700628F0D /* Frameworks */,
+				4F5BE0F11732ABA700628F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWindowKeyboardBugDemo;
+			productName = UIWindowKeyboardBugDemo;
+			productReference = 4F5BE0F31732ABA700628F0D /* UIWindowKeyboardBugDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5BE0EB1732ABA700628F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zhenby;
+			};
+			buildConfigurationList = 4F5BE0EE1732ABA700628F0D /* Build configuration list for PBXProject "UIWindowKeyboardBugDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F5BE0EA1732ABA700628F0D;
+			productRefGroup = 4F5BE0F41732ABA700628F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5BE0F21732ABA700628F0D /* UIWindowKeyboardBugDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5BE0F11732ABA700628F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5BE1011732ABA700628F0D /* InfoPlist.strings in Resources */,
+				4F5BE1091732ABA700628F0D /* Default.png in Resources */,
+				4F5BE10B1732ABA700628F0D /* Default@2x.png in Resources */,
+				4F5BE10D1732ABA700628F0D /* Default-568h@2x.png in Resources */,
+				4F5BE1131732ABA700628F0D /* ViewController.xib in Resources */,
+				4F5BE1201732AF5900628F0D /* FixedBugWebViewController.xib in Resources */,
+				4F5BE1221732AF5900628F0D /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5BE0EF1732ABA700628F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5BE1031732ABA700628F0D /* main.m in Sources */,
+				4F5BE1071732ABA700628F0D /* AppDelegate.m in Sources */,
+				4F5BE1101732ABA700628F0D /* ViewController.m in Sources */,
+				4F5BE11F1732AF5900628F0D /* FixedBugWebViewController.m in Sources */,
+				4F5BE1211732AF5900628F0D /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5BE0FF1732ABA700628F0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5BE1001732ABA700628F0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F5BE1111732ABA700628F0D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5BE1121732ABA700628F0D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5BE1141732ABA700628F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F5BE1151732ABA700628F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5BE1171732ABA700628F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWindowKeyboardBugDemo/UIWindowKeyboardBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIWindowKeyboardBugDemo/UIWindowKeyboardBugDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F5BE1181732ABA700628F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWindowKeyboardBugDemo/UIWindowKeyboardBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIWindowKeyboardBugDemo/UIWindowKeyboardBugDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5BE0EE1732ABA700628F0D /* Build configuration list for PBXProject "UIWindowKeyboardBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5BE1141732ABA700628F0D /* Debug */,
+				4F5BE1151732ABA700628F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5BE1161732ABA700628F0D /* Build configuration list for PBXNativeTarget "UIWindowKeyboardBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5BE1171732ABA700628F0D /* Debug */,
+				4F5BE1181732ABA700628F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5BE0EB1732ABA700628F0D /* Project object */;
+}
